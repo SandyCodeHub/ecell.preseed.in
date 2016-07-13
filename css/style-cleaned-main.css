@@ -78,6 +78,12 @@ body{
 	.logo-homepage a{width:100%;height:100%; float:left;}
 }
 
+/* this below line is included by manual */
+	 @media all and (min-width: 720px) {
+	.logo-homepage{width:360px;height:360px;position:fixed;left:49.2%;top:50%;margin:-180px 0 0 -180px;-webkit-border-radius: 250px; -moz-border-radius: 250px; border-radius:250px; overflow:hidden; background:#ff2778 ; background: url(../images/Nblackbacklogo.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
+	.logo-homepage a{width:100%;height:100%; float:left;}
+}
+
 
     @media all and (max-width: 1399px){
 	.logo-homepage{width:360px;height:360px;position:fixed;left:50%;top:50%;margin:-180px 0 0 -180px;-webkit-border-radius: 250px; -moz-border-radius: 250px; border-radius:250px; overflow:hidden; background:#ff2778 ; background: url(../images/Nblackbacklogo.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
