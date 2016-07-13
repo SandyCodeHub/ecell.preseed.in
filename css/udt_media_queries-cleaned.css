@@ -38,7 +38,16 @@
 	-----------------------------*/
 
 	/*homepage*/
-	.logo-homepage {background-attachment: inherit; position:absolute;}
+	/*.logo-homepage {background-attachment: inherit; position:absolute;}*/
+
+.logo-homepage {
+    width: 360px;
+    height: 360px;
+    margin-left: -180px;
+    margin-top: -180px;
+    position: absolute;
+    background-attachment: inherit;
+}	
 
 	/*inner pages*/
 	.header {display:block;}
@@ -108,7 +117,18 @@
 	-----------------------------*/
 	
 	/*homepage*/
-	.logo-homepage {background-attachment: inherit; position:absolute;}
+	/*.logo-homepage {background-attachment: inherit; position:absolute;}*/
+
+.logo-homepage {
+    width: 360px;
+    height: 360px;
+    margin-left: -180px;
+    margin-top: -180px;
+    position: absolute;
+    background-attachment: inherit;
+	
+}
+	
 
 	/*inner pages*/
 	.header {height:auto;display:block;}
@@ -194,7 +214,18 @@
 	-----------------------------*/
 	
 	/*homepage*/
-	.logo-homepage{width:150px;height:150px;margin:-75px 0 0 -75px;position:absolute;background-attachment:inherit;}
+	/*.logo-homepage{width:150px;height:150px;margin:-75px 0 0 -75px;position:absolute;background-attachment:inherit;}*/
+
+.logo-homepage {
+    width: 360px;
+    height: 360px;
+    margin-left: -180px;
+    margin-top: -180px;
+    position: absolute;
+    background-attachment: inherit;
+	
+}
+
 
 	/*inner pages*/
 	.header {height:auto;display:block;}
@@ -314,7 +345,16 @@
 	-----------------------------*/
 	
 	/*homepage*/
-	.logo-homepage{width:150px;height:150px;margin:-75px 0 0 -75px;position:absolute;background-attachment:inherit;}
+	/*.logo-homepage{width:150px;height:150px;margin:-75px 0 0 -75px;position:absolute;background-attachment:inherit;}*/
+
+.logo-homepage {
+    width: 360px;
+    height: 360px;
+    margin-left: -180px;
+    margin-top: -180px;
+    position: absolute;
+    background-attachment: inherit;}
+	
 	
 	/*inner pages*/
 	.header {height:auto;display:block;}
