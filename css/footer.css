@@ -76,7 +76,8 @@
 
 	#leftfooter a{
 	font-size:12px !important;
-	
+	/*this line is added for the footer*/
+	color:#cccccc;
 	}
 	#leftfooter span{
 	font-size:12px !important;
