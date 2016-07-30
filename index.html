@@ -904,10 +904,20 @@ window.twttr = (function (d, s, id) {
             <!--<li><a title="Facebook" href="http://www.facebook.com/thepreseed" target="_blank" data-icon="" style="font-size:16px;"></a></li>-->
             <!--<li><a title="Twitter" href="http://twitter.com/thepreseed" target="_blank" data-icon="" style="font-size:16px;"></a></li>-->
         <!--</ul>-->
-        
+        <style>
+            /*#preseed_home{*/
+            /*    display:none;*/
+            /*}*/
+            @media only screen and (min-width:1033px){
+                #preseed_home{
+                    display:none;
+                }
+            }
+        </style>
         <ul id="lftblwftr">
             <li><a class="hire" href="http://apply.preseed.in">We are Hiring!</a><br><li>
             <li><a class="navigateTo" href="http://preseedprints.com/">Shop</a><br><li>
+            <li><a id="preseed_home" href="http://preseed.in">Home</a></li>
             <li><a href="https://medium.com/the-preseed/faqs-about-preseed-7c2a803c13f5" target="_blank" style="font-size:14px;">FAQ</a><br><li>
             <li><a href="http://culture.preseed.in/team.html" target="_blank" style="font-size:14px;">Team</a><br><li>
             <li><a href="https://medium.com/the-preseed/about-preseed-a4836cfaa08b" target="_blank" style="font-size:14px;">About Us</a><br></li>
